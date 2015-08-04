@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="incorrect_color">#f44336</color>
+    <color name="correct_color">#212121</color>
+    <color name="system_color">#007FFF</color>
+</resources>
