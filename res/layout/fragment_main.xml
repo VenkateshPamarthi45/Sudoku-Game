@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/sudokuboardlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cell00"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:tag="00"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell01"
+                android:tag="01"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell02"
+                android:tag="02"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell03"
+                android:tag="03"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell04"
+                android:tag="04"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell05"
+                android:tag="05"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell06"
+                android:tag="06"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell07"
+                android:tag="07"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell08"
+                android:tag="08"
+                style="@style/cellTheme"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cell10"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:tag="10"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell11"
+                android:tag="11"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell12"
+                android:tag="12"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell13"
+                android:tag="13"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell14"
+                android:tag="14"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell15"
+                android:tag="15"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell16"
+                android:tag="16"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell17"
+                android:tag="17"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/cell18"
+                android:tag="18"
+                style="@style/cellTheme"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_thin"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cell20"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:tag="20"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/cell21"
+                android:tag="21"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/cell22"
+                android:tag="22"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/cell23"
+                android:tag="23"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/cell24"
+                android:tag="24"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/cell25"
+                android:tag="25"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/cell26"
+                android:tag="26"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/cell27"
+                android:tag="27"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/cell28"
+                android:tag="28"
+                style="@style/cellTheme"
+                android:text="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cell30"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:tag="30"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/cell31"
+                android:tag="31"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/cell32"
+                android:tag="32"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/cell33"
+                android:tag="33"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/cell34"
+                android:tag="34"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/cell35"
+                android:tag="35"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/cell36"
+                android:tag="36"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/cell37"
+                android:tag="37"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/cell38"
+                android:tag="38"
+                style="@style/cellTheme"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cell40"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:tag="40"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/cell41"
+                android:tag="41"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/cell42"
+                android:tag="42"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/cell43"
+                android:tag="43"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/cell44"
+                android:tag="44"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/cell45"
+                android:tag="45"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/cell46"
+                android:tag="46"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/cell47"
+                android:tag="47"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/cell48"
+                android:tag="48"
+                style="@style/cellTheme"
+                android:text="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_thin"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cell50"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:tag="50"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/cell51"
+                android:tag="51"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/cell52"
+                android:tag="52"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/cell53"
+                android:tag="53"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/cell54"
+                android:tag="54"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/cell55"
+                android:tag="55"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/cell56"
+                android:tag="56"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/cell57"
+                android:tag="57"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/cell58"
+                android:tag="58"
+                style="@style/cellTheme"
+                android:text="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cell60"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:tag="60"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/cell61"
+                android:tag="61"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/cell62"
+                android:tag="62"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/cell63"
+                android:tag="63"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/cell64"
+                android:tag="64"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/cell65"
+                android:tag="65"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/cell66"
+                android:tag="66"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/cell67"
+                android:tag="67"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/cell68"
+                android:tag="68"
+                style="@style/cellTheme"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal" >
+
+           <TextView
+                android:id="@+id/cell70"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:tag="70"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/cell71"
+                android:tag="71"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/cell72"
+                android:tag="72"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/cell73"
+                android:tag="73"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/cell74"
+                android:tag="74"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/cell75"
+                android:tag="75"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/cell76"
+                android:tag="76"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/cell77"
+                android:tag="77"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/cell78"
+                android:tag="78"
+                style="@style/cellTheme"
+                android:text="7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_thin"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cell80"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:tag="80"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/cell81"
+                android:tag="81"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/cell82"
+                android:tag="82"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/cell83"
+                android:tag="83"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/cell84"
+                android:tag="84"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/cell85"
+                android:tag="85"
+                style="@style/cellTheme"
+                android:background="@drawable/right_thinboarder_layout"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/cell86"
+                android:tag="86"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/cell87"
+                android:tag="87"
+                style="@style/cellTheme"
+                android:background="@drawable/rightboarder_layout"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/cell88"
+                android:tag="88"
+                style="@style/cellTheme"
+                android:text="8" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button 
+        android:id="@+id/donebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="Done"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"/>
+
+</LinearLayout>
